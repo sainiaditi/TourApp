@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorAccent">#00acc1</color>
+    <color name="tan_background">#FFF7DA</color>
+    <color name="primary_color">#00897b</color>
+    <color name="primary_dark_color">#00796b</color>
+    <color name="udaipur">#e53935</color>
+    <color name="jaipur">#ec407a</color>
+    <color name="ajmer">#689f38</color>
+    <color name="ranthambore">#ef6c00</color>
+</resources>

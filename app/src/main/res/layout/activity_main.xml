@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/primary_color"
+    android:orientation="vertical"
+    tools:context="com.example.android.tourguideapp.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_height="0dp"
+        android:orientation="horizontal">
+        <!-- Udaipur -->
+        <FrameLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_margin="2dp"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/udaipur"
+                style="@style/CategoryStyle"
+                android:background="@drawable/udaipur"
+                android:text="@string/udaipur" />
+        </FrameLayout>
+
+        <!-- Jaipur -->
+        <FrameLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_margin="2dp"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/jaipur"
+                style="@style/CategoryStyle"
+                android:background="@drawable/jaipur"
+                android:text="@string/jaipur" />
+        </FrameLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_height="0dp"
+        android:orientation="horizontal">
+        <!-- Ajmer -->
+        <FrameLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_margin="2dp"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/ajmer"
+                style="@style/CategoryStyle"
+                android:background="@drawable/ajmer"
+                android:text="@string/ajmer" />
+        </FrameLayout>
+
+        <!-- Ranthambor -->
+        <FrameLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_margin="2dp"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/ranthambore"
+                style="@style/CategoryStyle"
+                android:background="@drawable/ranthambore"
+                android:text="@string/ranthambore" />
+        </FrameLayout>
+    </LinearLayout>
+
+
+</LinearLayout>
